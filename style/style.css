@@ -2,3 +2,44 @@
     font-family: 'Mulish', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+ /* shared style */
+ .span-1{
+    color: #FF5400;
+    font-weight: 800;
+ }
+ /* shard style end */
+ /* nav style start  */
+ .header-section{
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-title{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 135px;
+    font-size: 36px;
+    font-weight: 800;
+ }
+.nav-title img {
+    width: 48px;
+    height: 56.008px;
+} 
+.nav-items a {
+    text-decoration: none;
+    color: #424247;
+    justify-content: space-between;
+    align-items: center;
+}
+.span-2{
+    color: #FF5400;
+}
+ /* nav style end  */
+ /* responsive style start */
+ @media screen and (max-width: 676px) {
+    .header-section{
+        flex-direction: column;
+    }
+ }
+ /* responsiv style end */
