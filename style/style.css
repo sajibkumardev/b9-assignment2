@@ -2,44 +2,241 @@
     font-family: 'Mulish', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
- /* shared style */
- .span-1{
+
+/* shared style */
+.span-1 {
     color: #FF5400;
     font-weight: 800;
- }
- /* shard style end */
- /* nav style start  */
- .header-section{
+}
+
+/* shard style end */
+/* nav style start  */
+.header-section {
     max-width: 1250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
- .nav-title{
+}
+
+.nav-title {
     display: flex;
     align-items: center;
     padding: 0 0 0 135px;
     font-size: 36px;
     font-weight: 800;
- }
+}
+
 .nav-title img {
-    width: 48px;
+    width: 3rem;
     height: 56.008px;
-} 
+}
+
 .nav-items a {
     text-decoration: none;
     color: #424247;
     justify-content: space-between;
     align-items: center;
 }
-.span-2{
+
+.span-2 {
     color: #FF5400;
 }
- /* nav style end  */
- /* responsive style start */
- @media screen and (max-width: 676px) {
-    .header-section{
+
+/* nav style end  */
+/* banner section start */
+.banner-section {
+    max-width: 1170px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.bgc-img1 {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+
+}
+
+.banner-text {
+    text-align: center;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-bottom {
+    width: 1000px;
+    height: 40px;
+    display: inline-flex;
+    padding: 120px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+
+
+}
+
+.bottom1 {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bottom2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottom3 {
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottom4 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* banner section end */
+/* banner-discription section start */
+.banner-discription {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+    min-height: 500px;
+    display: flex;
+    padding-top: 90px;
+}
+
+.dis-text {
+    /* border: 2px solid green; */
+    width: 100%;
+}
+
+.dis-image {
+    /* border: 2px solid midnightblue; */
+    width: 100%;
+}
+
+.dis-text-title {
+    color: #131318;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.dis-para {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.dis-button {
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.your-desti {
+    text-align: center;
+}
+
+.your-destih {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.your-destip {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* banner-discription section end */
+/* responsive style start */
+@media screen and (max-width: 600px) {
+    .header-section {
         flex-direction: column;
     }
- }
- /* responsiv style end */
+
+    .banner-bottom {
+        flex-direction: column;
+    }
+
+    .bgc-img1 {
+        width: 400px;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    .banner-text {
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .banner-text p {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+    }
+
+    .banner-bottom {
+        width: px;
+        height: 200px;
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+
+
+    }
+    .banner-discription {
+        max-width: 1000px;
+        margin: 0 auto;
+        /* border: 1px solid tomato; */
+        min-height: 500px;
+        display: flex;
+        padding-top: 90px;
+        flex-direction: column;
+    }
+}
+
+
+/* responsiv style end */
